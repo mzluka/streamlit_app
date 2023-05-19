@@ -226,7 +226,7 @@ def main(
     st.sidebar.info('Приложение сделано Мариной')
     
     
-    st.markdown("<h1 style='text-align: center; '>Это моё первое веб-приложение :).</h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>Это моё первое веб-приложение:) </h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
