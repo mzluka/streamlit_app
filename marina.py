@@ -222,7 +222,7 @@ def main(
     
     
     st.sidebar.title('Веб-приложение для Марины')
-    st.sidebar.image('hi.jpg')
+    st.sidebar.image('7.jpg')
     st.sidebar.info('Фамилия разработчика слишком известная :)')
     
     
@@ -230,7 +230,7 @@ def main(
     #st.image('hi.jpg', width=400)
    
     
-    st_player("https://www.youtube.com/watch?v=CCHdMIEGaaM")
+    st_player("https://www.youtube.com/watch?v=bbkEVJgrBUs")
     
 
     
