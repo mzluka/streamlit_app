@@ -222,7 +222,7 @@ def main(
     
     
     st.sidebar.title('Веб-поздравление для лучшей подруги!')
-    st.sidebar.image('7.jpg')
+    st.sidebar.image('8.jpg')
     st.sidebar.info('Приложение сделано Мариной')
     
     
