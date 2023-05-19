@@ -227,7 +227,7 @@ def main(
     
     
     st.markdown("<h1 style='text-align: center; '>С Днём Рождения! Желаю всего только лучшего:) </h1>", unsafe_allow_html = True)
-    #st.image('hi.jpg', width=400)
+    #st.image('hi.jpg', width=300)
    
     
     st_player("https://www.youtube.com/watch?v=TaAnIU_P-5k")
