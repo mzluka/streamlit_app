@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
 rain(
-    emoji="❤️",
+    emoji="⭐",
     font_size=30,
     falling_speed=5,
     animation_length="infinite",
@@ -210,7 +210,7 @@ def main(
 
     #def example():
         #rain(
-            #emoji="❤️",
+            #emoji="⭐",
             #font_size=30,
             #falling_speed=5,
             #animation_length="infinite",
@@ -221,20 +221,20 @@ def main(
     
     
     
-    st.sidebar.title('Веб-приложение для любимого!')
+    st.sidebar.title('Веб-поздравление для лучшей подруги!')
     st.sidebar.image('7.jpg')
     st.sidebar.info('Приложение сделано Мариной')
     
     
-    st.markdown("<h1 style='text-align: center; '>Это моё первое веб-приложение:) </h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>С Днём Рождения! Желаю всего только лучшего:) </h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
-    st_player("https://www.youtube.com/watch?v=bbkEVJgrBUs")
+    st_player("https://www.youtube.com/watch?v=TaAnIU_P-5k")
     
 
     
-    if st.button("Нажми кнопку, смелее!"):
+    if st.button("Скорее жми сюда!"):
         
         
       
@@ -246,11 +246,11 @@ def main(
         time.sleep(2.5)
         st.balloons()
         time.sleep(2.5)
-        st.snow()
-        time.sleep(2.5)
-        st.snow()
-        time.sleep(3)
-        st.snow()
+        
+        
+        
+        
+        
 if __name__ == '__main__':
     main(rain)
     
