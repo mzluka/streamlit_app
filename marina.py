@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
 rain(
-    emoji="⭐",
+    emoji="💖",
     font_size=30,
     falling_speed=5,
     animation_length="infinite",
@@ -210,7 +210,7 @@ def main(
 
     #def example():
         #rain(
-            #emoji="⭐",
+            #emoji="💖",
             #font_size=30,
             #falling_speed=5,
             #animation_length="infinite",
@@ -221,35 +221,36 @@ def main(
     
     
     
-    st.sidebar.title('Веб-поздравление для лучшей подруги!')
-    st.sidebar.image('8.jpg')
+    st.sidebar.title('Веб-приложение для любимого мужа!')
+    st.sidebar.image('7.jpg')
     st.sidebar.info('Приложение сделано Мариной')
     
     
-    st.markdown("<h1 style='text-align: center; '>С Днём Рождения! Желаю всего только лучшего:) </h1>", unsafe_allow_html = True)
-    #st.image('hi.jpg', width=300)
+    st.markdown("<h1 style='text-align: center; '>Доброго вечера и спокойной ночи! </h1>", unsafe_allow_html = True)
+    #st.image('hi.jpg', width=400)
    
     
-    st_player("https://www.youtube.com/watch?v=TaAnIU_P-5k")
+    st_player("https://www.youtube.com/watch?v=sIP3mAqIdNY")
     
 
     
-    if st.button("Скорее жми сюда!"):
+    if st.button("Нажми сюда, смелее!"):
         
         
       
        
         st.balloons()
-        st_player("https://soundcloud.com/munaim2007/happy-birthday-to-you-arabic-song?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
+        st_player("https://soundcloud.com/glubokiisonzviezda/sets/me970dc4hgfe?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
         time.sleep(2.5)
         st.balloons()
         time.sleep(2.5)
         st.balloons()
         time.sleep(2.5)
-        
-        
-        
-        
+        st.snow()
+        time.sleep(2.5)
+        st.snow()
+        time.sleep(2.5)
+        st.snow()
         
 if __name__ == '__main__':
     main(rain)
