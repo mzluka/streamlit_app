@@ -221,12 +221,12 @@ def main(
     
     
     
-    st.sidebar.title('Веб-приложение для Марины')
+    st.sidebar.title('Веб-приложение для любимого!')
     st.sidebar.image('7.jpg')
-    st.sidebar.info('Фамилия разработчика слишком известная :)')
+    st.sidebar.info('Приложение сделано Мариной')
     
     
-    st.markdown("<h1 style='text-align: center; '>Это Ваше первое приложение :).</h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>Это моё первое веб-приложение :).</h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
@@ -234,19 +234,23 @@ def main(
     
 
     
-    if st.button("Нажми кнопку! Там ешё пару сюрпризов."):
+    if st.button("Нажми кнопку, смелее!"):
         
         
       
        
         st.balloons()
-        st_player("https://soundcloud.com/ahmed-mano-5/eminem_im-not-afraid")
+        st_player("https://soundcloud.com/daniel-tan-126/its-beginning-to-look-a-lot-like-christmas-let-it-snow")
         time.sleep(2.5)
         st.balloons()
         time.sleep(2.5)
         st.balloons()
-       
-
+        time.sleep(2.5)
+        st.snow()
+        time.sleep(2.5)
+        st.snow()
+        time.sleep(3)
+        st.snow()
 if __name__ == '__main__':
     main(rain)
     
