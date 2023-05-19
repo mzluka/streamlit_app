@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
 rain(
-    emoji="💵",
+    emoji="❤️",
     font_size=30,
     falling_speed=5,
     animation_length="infinite",
@@ -210,7 +210,7 @@ def main(
 
     #def example():
         #rain(
-            #emoji="💵",
+            #emoji="❤️",
             #font_size=30,
             #falling_speed=5,
             #animation_length="infinite",
