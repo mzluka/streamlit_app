@@ -226,7 +226,7 @@ def main(
     st.sidebar.info('Data Science forever✌️')
     
     
-    st.markdown("<h1 style='text-align: center; '>Эта песня поднимет настроение! :).</h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>Эта песня поднимет настроение! :) </h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
