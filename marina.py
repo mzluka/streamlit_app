@@ -7,7 +7,7 @@ from streamlit_player import st_player
 
 
 rain(
-    emoji="💵",
+    emoji="🎉",
     font_size=30,
     falling_speed=5,
     animation_length="infinite",
@@ -210,7 +210,7 @@ def main(
 
     #def example():
         #rain(
-            #emoji="💵",
+            #emoji="🎉",
             #font_size=30,
             #falling_speed=5,
             #animation_length="infinite",
@@ -221,26 +221,26 @@ def main(
     
     
     
-    st.sidebar.title('Веб-приложение для Марины')
-    st.sidebar.image('hi.jpg')
-    st.sidebar.info('Фамилия разработчика слишком известная :)')
+    st.sidebar.title('Веб-привет от Марины')
+    st.sidebar.image('6.jpg')
+    st.sidebar.info('Data Science forever✌️')
     
     
-    st.markdown("<h1 style='text-align: center; '>Это Ваше первое приложение :).</h1>", unsafe_allow_html = True)
+    st.markdown("<h1 style='text-align: center; '>Эта песня поднимет настроение! :).</h1>", unsafe_allow_html = True)
     #st.image('hi.jpg', width=400)
    
     
-    st_player("https://www.youtube.com/watch?v=CCHdMIEGaaM")
+    st_player("https://www.youtube.com/watch?v=9j89kD_Sr4Y")
     
 
     
-    if st.button("Нажми кнопку! Там ешё пару сюрпризов."):
+    if st.button("Жми смелее! Там ешё пару сюрпризов."):
         
         
       
        
         st.balloons()
-        st_player("https://soundcloud.com/ahmed-mano-5/eminem_im-not-afraid")
+        st_player("https://soundcloud.com/rik_elrik/fir-zhivi-poka-molodoy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")
         time.sleep(2.5)
         st.balloons()
         time.sleep(2.5)
